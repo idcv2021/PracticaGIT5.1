@@ -44,6 +44,7 @@ namespace WindowsFormsApp1
             this.aluNombre.Name = "aluNombre";
             this.aluNombre.Size = new System.Drawing.Size(342, 20);
             this.aluNombre.TabIndex = 0;
+            this.aluNombre.TextChanged += new System.EventHandler(this.aluNombre_TextChanged);
             // 
             // label1
             // 
